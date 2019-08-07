@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>737947656180-4rgu15m1q4l098fe0pcg68hlru631sig.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.737947656180-4rgu15m1q4l098fe0pcg68hlru631sig</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA630rdCB-AD1Sk_9H7HuUdFutY_8xqkWw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>737947656180</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>esraa.LocationApp</string>
+	<key>PROJECT_ID</key>
+	<string>locationapp-2b1fd</string>
+	<key>STORAGE_BUCKET</key>
+	<string>locationapp-2b1fd.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:737947656180:ios:33fa5a92da625ed4</string>
+	<key>DATABASE_URL</key>
+	<string>https://locationapp-2b1fd.firebaseio.com</string>
+</dict>
+</plist>
