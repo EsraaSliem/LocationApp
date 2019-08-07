@@ -9,27 +9,19 @@
 import UIKit
 
 class HomeVC: UIViewController {
-
+    //MARK:- oulets
+    @IBOutlet weak var tableView: UITableView!
+    //MARK:- property
+    var presenter :HomePresenter!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setUpTableView()
+        presenter = HomePresenter(view: self, home: self)
+        presenter.viewDidLoad()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+}
+extension HomeVC : HomeTableViewProtocol,UsersView{
+    func refresh() {
+        tableView.reloadData()
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

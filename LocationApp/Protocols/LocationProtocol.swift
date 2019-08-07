@@ -7,3 +7,8 @@
 //
 
 import Foundation
+protocol LocationProtocol:class{
+    func showDisableAlert()
+    func displayLocation(long:Double , lat:Double)
+}
+

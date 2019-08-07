@@ -1,0 +1,15 @@
+//
+//  AuthenticationProtocol.swift
+//  LocationApp
+//
+//  Created by esraa on 8/7/19.
+//  Copyright © 2019 esraa. All rights reserved.
+//
+
+import Foundation
+protocol AuthenticationProtocol: class
+{
+    func navigateToVC()
+    
+    func changeToLoginSegment()
+}

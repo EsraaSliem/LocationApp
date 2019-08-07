@@ -8,41 +8,54 @@
 
 import Foundation
 
-class UsersVCPresenter {
+class UserPresenter {
+    //MARK:- property
     private weak var view: UsersView?
-    private let interactor = UsersInteractor()
-    private var users = [User]()
-    init(view: UsersView) {
+    private let interactor = UserInteractor()
+    private weak var  authDelegate : AuthenticationProtocol!
+    
+    //MARK:- init
+    init(view: UsersView , _authDelegate: AuthenticationProtocol) {
         self.view = view
+        authDelegate = _authDelegate
     }
-    func viewDidLoad() {
-        getUsers()
-    }
-    func getUsers() {
+    
+    //MARK:- Authentication functionality
+    //login
+    func logIn(email: String, pass: String) {
         view?.showIndicator()
-        interactor.getUsers { [weak self] users, error in
-            guard let self = self else { return } //And note this is only available from swift 4.2
-            self.view?.hideIndicator()
-            if let error = error {
-                self.view?.showError(error: error.localizedDescription)
-            } else {
-                guard let users = users else { return }
-                self.users = users
-                self.view?.fetchingDataSuccess()
+        interactor.login(email: email, pass: pass) { [weak self]  in
+            if let uid = $0
+            {
+                self?.view?.hideIndicator()
+                self?.authDelegate?.navigateToVC()
+                
+            }
+            else {
+                print("error")
+                self?.view?.showError(error: "invalid email or pass")
+            }
+            
+            
+        }
+    }
+    
+    //register
+    func register(user :User)
+    {
+        view?.showIndicator()
+        interactor.Register(user: user){
+            [weak self] in
+            if let error = $0
+            {
+                self?.view?.showError(error: error as! String)
+            }
+            else{
+                self?.view?.fetchingDataSuccess(message: "registed sucessfuly")
+                self?.authDelegate.changeToLoginSegment()
             }
         }
     }
-    func getUsersCount() -> Int {
-        return users.count
-    }
-    func configure(cell: UserCellView, for index: Int) {
-        let user = users[index]
-        cell.displayName(name: user._name)
-        cell.displayEmail(email: user._email)
-        cell.displayAddress(address: "\(user._address._street) \(user._address._suite)")
-    }
-    func didSelectRow(index: Int) {
-        let user = users[index]
-        view?.navigateToUserDetailsScreen(user: user)
-    }
+    
+    
 }

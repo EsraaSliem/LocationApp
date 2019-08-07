@@ -7,13 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02375FD522FB1E240002D4F2 /* MapViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02375FD422FB1E240002D4F2 /* MapViewProtocol.swift */; };
+		02375FD922FB301A0002D4F2 /* HomeTableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02375FD822FB301A0002D4F2 /* HomeTableViewProtocol.swift */; };
+		023F957B22F9B0B6003F068F /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023F957A22F9B0B6003F068F /* DataServices.swift */; };
+		023F957D22F9C325003F068F /* UserInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023F957C22F9C325003F068F /* UserInteractor.swift */; };
+		026961C222F920C0004EBD9D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 026961C122F920C0004EBD9D /* GoogleService-Info.plist */; };
+		02BF860422F9DFF900FE1B9E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BF860322F9DFF900FE1B9E /* User.swift */; };
+		02BF860922F9E3A300FE1B9E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BF860822F9E3A300FE1B9E /* Constants.swift */; };
+		02BF860C22F9F9A800FE1B9E /* UserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BF860B22F9F9A800FE1B9E /* UserPresenter.swift */; };
+		02BF860F22F9F9C000FE1B9E /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BF860E22F9F9C000FE1B9E /* HomePresenter.swift */; };
+		02CA643422FA53D300DAEE6C /* NavigateLocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CA643322FA53D300DAEE6C /* NavigateLocationVC.swift */; };
+		02CA643622FA687500DAEE6C /* LocationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CA643522FA687500DAEE6C /* LocationPresenter.swift */; };
+		02CA643922FA6EA600DAEE6C /* LocationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CA643822FA6EA600DAEE6C /* LocationProtocol.swift */; };
+		02CA643B22FA71EE00DAEE6C /* LocationVC+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CA643A22FA71EE00DAEE6C /* LocationVC+Delegate.swift */; };
+		02CA643D22FA77AE00DAEE6C /* NavigateMapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CA643C22FA77AE00DAEE6C /* NavigateMapPresenter.swift */; };
+		02CA643F22FA83D100DAEE6C /* NavigateMapProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CA643E22FA83D100DAEE6C /* NavigateMapProtocol.swift */; };
+		02CA644222FA90AB00DAEE6C /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CA644122FA90AB00DAEE6C /* HomeVC.swift */; };
+		02CA644422FA91D000DAEE6C /* HomeVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CA644322FA91D000DAEE6C /* HomeVC+TableView.swift */; };
 		02E69FFA22F8F6490020F835 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E69FF922F8F6490020F835 /* AppDelegate.swift */; };
-		02E69FFC22F8F6490020F835 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E69FFB22F8F6490020F835 /* ViewController.swift */; };
+		02E69FFC22F8F6490020F835 /* AuthenticationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E69FFB22F8F6490020F835 /* AuthenticationVC.swift */; };
 		02E69FFF22F8F6490020F835 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02E69FFD22F8F6490020F835 /* Main.storyboard */; };
 		02E6A00122F8F6490020F835 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02E6A00022F8F6490020F835 /* Assets.xcassets */; };
 		02E6A00422F8F6490020F835 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02E6A00222F8F6490020F835 /* LaunchScreen.storyboard */; };
 		02E6A00F22F8F64A0020F835 /* LocationAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E6A00E22F8F64A0020F835 /* LocationAppTests.swift */; };
 		02E6A01A22F8F64A0020F835 /* LocationAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E6A01922F8F64A0020F835 /* LocationAppUITests.swift */; };
+		02E6A03F22F907030020F835 /* DesinableFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E6A03E22F907030020F835 /* DesinableFile.swift */; };
+		02F35FCD22FA2B5D000AB578 /* UserViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F35FCC22FA2B5D000AB578 /* UserViewDelegate.swift */; };
+		02F35FCF22FA342E000AB578 /* AuthenticationVC+UserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F35FCE22FA342E000AB578 /* AuthenticationVC+UserDelegate.swift */; };
+		02F35FD122FA40B5000AB578 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F35FD022FA40B5000AB578 /* LocationVC.swift */; };
+		02FCA5FE22FB115100B7C36B /* AuthenticationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FCA5FD22FB115100B7C36B /* AuthenticationProtocol.swift */; };
+		1560B33F8A8DE2C6E9A521BA /* Pods_LocationAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA15EF616D1379FA36D6F06 /* Pods_LocationAppTests.framework */; };
+		1D8EA575FC806682E3C59CC1 /* Pods_LocationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7697DDB994165E812EDB7CF1 /* Pods_LocationApp.framework */; };
+		D0C7DF60E3C3DBE93B5672C7 /* Pods_LocationAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC83F5B5B858A296E0C3422 /* Pods_LocationAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +59,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02375FD422FB1E240002D4F2 /* MapViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewProtocol.swift; sourceTree = "<group>"; };
+		02375FD822FB301A0002D4F2 /* HomeTableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewProtocol.swift; sourceTree = "<group>"; };
+		023F957A22F9B0B6003F068F /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		023F957C22F9C325003F068F /* UserInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInteractor.swift; sourceTree = "<group>"; };
+		026961C122F920C0004EBD9D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		02BF860322F9DFF900FE1B9E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		02BF860822F9E3A300FE1B9E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		02BF860B22F9F9A800FE1B9E /* UserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPresenter.swift; sourceTree = "<group>"; };
+		02BF860E22F9F9C000FE1B9E /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		02CA643322FA53D300DAEE6C /* NavigateLocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigateLocationVC.swift; sourceTree = "<group>"; };
+		02CA643522FA687500DAEE6C /* LocationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPresenter.swift; sourceTree = "<group>"; };
+		02CA643822FA6EA600DAEE6C /* LocationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProtocol.swift; sourceTree = "<group>"; };
+		02CA643A22FA71EE00DAEE6C /* LocationVC+Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocationVC+Delegate.swift"; sourceTree = "<group>"; };
+		02CA643C22FA77AE00DAEE6C /* NavigateMapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigateMapPresenter.swift; sourceTree = "<group>"; };
+		02CA643E22FA83D100DAEE6C /* NavigateMapProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigateMapProtocol.swift; sourceTree = "<group>"; };
+		02CA644122FA90AB00DAEE6C /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		02CA644322FA91D000DAEE6C /* HomeVC+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeVC+TableView.swift"; sourceTree = "<group>"; };
 		02E69FF622F8F6490020F835 /* LocationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E69FF922F8F6490020F835 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		02E69FFB22F8F6490020F835 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02E69FFB22F8F6490020F835 /* AuthenticationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationVC.swift; sourceTree = "<group>"; };
 		02E69FFE22F8F6490020F835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02E6A00022F8F6490020F835 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02E6A00322F8F6490020F835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		02E6A00522F8F64A0020F835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02E6A00522F8F64A0020F835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		02E6A00A22F8F64A0020F835 /* LocationAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E6A00E22F8F64A0020F835 /* LocationAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAppTests.swift; sourceTree = "<group>"; };
 		02E6A01022F8F64A0020F835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02E6A01522F8F64A0020F835 /* LocationAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E6A01922F8F64A0020F835 /* LocationAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAppUITests.swift; sourceTree = "<group>"; };
 		02E6A01B22F8F64A0020F835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02E6A03E22F907030020F835 /* DesinableFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesinableFile.swift; sourceTree = "<group>"; };
+		02F35FCC22FA2B5D000AB578 /* UserViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewDelegate.swift; sourceTree = "<group>"; };
+		02F35FCE22FA342E000AB578 /* AuthenticationVC+UserDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AuthenticationVC+UserDelegate.swift"; sourceTree = "<group>"; };
+		02F35FD022FA40B5000AB578 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
+		02FCA5FD22FB115100B7C36B /* AuthenticationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationProtocol.swift; sourceTree = "<group>"; };
+		0AC83F5B5B858A296E0C3422 /* Pods_LocationAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocationAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23755AE0FFA30EFDF2FDD899 /* Pods-LocationAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-LocationAppUITests/Pods-LocationAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7697DDB994165E812EDB7CF1 /* Pods_LocationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A37027A9D5E1828820C512 /* Pods-LocationAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationAppTests.debug.xcconfig"; path = "Target Support Files/Pods-LocationAppTests/Pods-LocationAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9DA15EF616D1379FA36D6F06 /* Pods_LocationAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocationAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD49902BB06896D9AD18B507 /* Pods-LocationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationApp.debug.xcconfig"; path = "Target Support Files/Pods-LocationApp/Pods-LocationApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D75E572030D65E01CBA18E92 /* Pods-LocationAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationAppUITests.release.xcconfig"; path = "Target Support Files/Pods-LocationAppUITests/Pods-LocationAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D7E561F9592063E462228760 /* Pods-LocationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationApp.release.xcconfig"; path = "Target Support Files/Pods-LocationApp/Pods-LocationApp.release.xcconfig"; sourceTree = "<group>"; };
+		D9EB04977E23055DD7AC9F6A /* Pods-LocationAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationAppTests.release.xcconfig"; path = "Target Support Files/Pods-LocationAppTests/Pods-LocationAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D8EA575FC806682E3C59CC1 /* Pods_LocationApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1560B33F8A8DE2C6E9A521BA /* Pods_LocationAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +126,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0C7DF60E3C3DBE93B5672C7 /* Pods_LocationAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		023F957922F9B08A003F068F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				023F957A22F9B0B6003F068F /* DataServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		02BF860722F9E38800FE1B9E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				02BF860822F9E3A300FE1B9E /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		02CA644022FA908B00DAEE6C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				02CA644122FA90AB00DAEE6C /* HomeVC.swift */,
+				02CA644322FA91D000DAEE6C /* HomeVC+TableView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		02E69FED22F8F6490020F835 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +165,8 @@
 				02E6A00D22F8F64A0020F835 /* LocationAppTests */,
 				02E6A01822F8F64A0020F835 /* LocationAppUITests */,
 				02E69FF722F8F6490020F835 /* Products */,
+				3A99967B5091D111A628E0B8 /* Pods */,
+				BC04C7AF0D181DCDDDC8112A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +183,15 @@
 		02E69FF822F8F6490020F835 /* LocationApp */ = {
 			isa = PBXGroup;
 			children = (
-				02E69FF922F8F6490020F835 /* AppDelegate.swift */,
-				02E69FFB22F8F6490020F835 /* ViewController.swift */,
-				02E69FFD22F8F6490020F835 /* Main.storyboard */,
-				02E6A00022F8F6490020F835 /* Assets.xcassets */,
-				02E6A00222F8F6490020F835 /* LaunchScreen.storyboard */,
-				02E6A00522F8F64A0020F835 /* Info.plist */,
+				02F35FCB22FA2B38000AB578 /* Protocols */,
+				02BF860722F9E38800FE1B9E /* Utils */,
+				023F957922F9B08A003F068F /* Services */,
+				02E6A02D22F8FCD50020F835 /* Model */,
+				02E6A02B22F8FC270020F835 /* Resources */,
+				02E6A02A22F8FBF90020F835 /* Configuration */,
+				02E6A02922F8FBEC0020F835 /* Scenes */,
+				02E6A02822F8FBC90020F835 /* Storeyboards */,
+				02E6A02722F8FBB80020F835 /* Core */,
 			);
 			path = LocationApp;
 			sourceTree = "<group>";
@@ -110,8 +199,8 @@
 		02E6A00D22F8F64A0020F835 /* LocationAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				02E6A00E22F8F64A0020F835 /* LocationAppTests.swift */,
 				02E6A01022F8F64A0020F835 /* Info.plist */,
+				02E6A00E22F8F64A0020F835 /* LocationAppTests.swift */,
 			);
 			path = LocationAppTests;
 			sourceTree = "<group>";
@@ -125,6 +214,151 @@
 			path = LocationAppUITests;
 			sourceTree = "<group>";
 		};
+		02E6A02722F8FBB80020F835 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				02E69FF922F8F6490020F835 /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		02E6A02822F8FBC90020F835 /* Storeyboards */ = {
+			isa = PBXGroup;
+			children = (
+				02E69FFD22F8F6490020F835 /* Main.storyboard */,
+				02E6A00222F8F6490020F835 /* LaunchScreen.storyboard */,
+			);
+			path = Storeyboards;
+			sourceTree = "<group>";
+		};
+		02E6A02922F8FBEC0020F835 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				02E6A02C22F8FCCA0020F835 /* Presenter */,
+				02E6A02F22F8FCF40020F835 /* View */,
+				02E6A02E22F8FCDE0020F835 /* Interceptor */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		02E6A02A22F8FBF90020F835 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				026961C122F920C0004EBD9D /* GoogleService-Info.plist */,
+				02E6A00522F8F64A0020F835 /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		02E6A02B22F8FC270020F835 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				02E6A00022F8F6490020F835 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		02E6A02C22F8FCCA0020F835 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				02BF860B22F9F9A800FE1B9E /* UserPresenter.swift */,
+				02BF860E22F9F9C000FE1B9E /* HomePresenter.swift */,
+				02CA643522FA687500DAEE6C /* LocationPresenter.swift */,
+				02CA643C22FA77AE00DAEE6C /* NavigateMapPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		02E6A02D22F8FCD50020F835 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02BF860322F9DFF900FE1B9E /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		02E6A02E22F8FCDE0020F835 /* Interceptor */ = {
+			isa = PBXGroup;
+			children = (
+				023F957C22F9C325003F068F /* UserInteractor.swift */,
+			);
+			path = Interceptor;
+			sourceTree = "<group>";
+		};
+		02E6A02F22F8FCF40020F835 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02CA644022FA908B00DAEE6C /* Home */,
+				02E6A04422F917150020F835 /* Location */,
+				02E6A03C22F906D80020F835 /* Design  */,
+				02E6A03122F8FEFE0020F835 /* Authentication */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		02E6A03122F8FEFE0020F835 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				02E69FFB22F8F6490020F835 /* AuthenticationVC.swift */,
+				02F35FCE22FA342E000AB578 /* AuthenticationVC+UserDelegate.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		02E6A03C22F906D80020F835 /* Design  */ = {
+			isa = PBXGroup;
+			children = (
+				02E6A03E22F907030020F835 /* DesinableFile.swift */,
+			);
+			path = "Design ";
+			sourceTree = "<group>";
+		};
+		02E6A04422F917150020F835 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				02F35FD022FA40B5000AB578 /* LocationVC.swift */,
+				02CA643322FA53D300DAEE6C /* NavigateLocationVC.swift */,
+				02CA643A22FA71EE00DAEE6C /* LocationVC+Delegate.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		02F35FCB22FA2B38000AB578 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				02F35FCC22FA2B5D000AB578 /* UserViewDelegate.swift */,
+				02CA643822FA6EA600DAEE6C /* LocationProtocol.swift */,
+				02CA643E22FA83D100DAEE6C /* NavigateMapProtocol.swift */,
+				02FCA5FD22FB115100B7C36B /* AuthenticationProtocol.swift */,
+				02375FD422FB1E240002D4F2 /* MapViewProtocol.swift */,
+				02375FD822FB301A0002D4F2 /* HomeTableViewProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3A99967B5091D111A628E0B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD49902BB06896D9AD18B507 /* Pods-LocationApp.debug.xcconfig */,
+				D7E561F9592063E462228760 /* Pods-LocationApp.release.xcconfig */,
+				79A37027A9D5E1828820C512 /* Pods-LocationAppTests.debug.xcconfig */,
+				D9EB04977E23055DD7AC9F6A /* Pods-LocationAppTests.release.xcconfig */,
+				23755AE0FFA30EFDF2FDD899 /* Pods-LocationAppUITests.debug.xcconfig */,
+				D75E572030D65E01CBA18E92 /* Pods-LocationAppUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BC04C7AF0D181DCDDDC8112A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7697DDB994165E812EDB7CF1 /* Pods_LocationApp.framework */,
+				9DA15EF616D1379FA36D6F06 /* Pods_LocationAppTests.framework */,
+				0AC83F5B5B858A296E0C3422 /* Pods_LocationAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +366,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02E6A01E22F8F64A0020F835 /* Build configuration list for PBXNativeTarget "LocationApp" */;
 			buildPhases = (
+				99EC1450BD7347AE969F4696 /* [CP] Check Pods Manifest.lock */,
 				02E69FF222F8F6490020F835 /* Sources */,
 				02E69FF322F8F6490020F835 /* Frameworks */,
 				02E69FF422F8F6490020F835 /* Resources */,
+				D7CC51C760B78383B544C401 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +385,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02E6A02122F8F64A0020F835 /* Build configuration list for PBXNativeTarget "LocationAppTests" */;
 			buildPhases = (
+				C5AF7B5CFC241B7E4AC1F898 /* [CP] Check Pods Manifest.lock */,
 				02E6A00622F8F64A0020F835 /* Sources */,
 				02E6A00722F8F64A0020F835 /* Frameworks */,
 				02E6A00822F8F64A0020F835 /* Resources */,
@@ -167,6 +404,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02E6A02422F8F64A0020F835 /* Build configuration list for PBXNativeTarget "LocationAppUITests" */;
 			buildPhases = (
+				728E0F1E08C8B0908ECA342E /* [CP] Check Pods Manifest.lock */,
 				02E6A01122F8F64A0020F835 /* Sources */,
 				02E6A01222F8F64A0020F835 /* Frameworks */,
 				02E6A01322F8F64A0020F835 /* Resources */,
@@ -235,6 +473,7 @@
 				02E6A00422F8F6490020F835 /* LaunchScreen.storyboard in Resources */,
 				02E6A00122F8F6490020F835 /* Assets.xcassets in Resources */,
 				02E69FFF22F8F6490020F835 /* Main.storyboard in Resources */,
+				026961C222F920C0004EBD9D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +493,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		728E0F1E08C8B0908ECA342E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocationAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99EC1450BD7347AE969F4696 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocationApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5AF7B5CFC241B7E4AC1F898 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocationAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7CC51C760B78383B544C401 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LocationApp/Pods-LocationApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LocationApp/Pods-LocationApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		02E69FF222F8F6490020F835 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02E69FFC22F8F6490020F835 /* ViewController.swift in Sources */,
+				02E69FFC22F8F6490020F835 /* AuthenticationVC.swift in Sources */,
+				02CA644422FA91D000DAEE6C /* HomeVC+TableView.swift in Sources */,
+				02BF860C22F9F9A800FE1B9E /* UserPresenter.swift in Sources */,
 				02E69FFA22F8F6490020F835 /* AppDelegate.swift in Sources */,
+				02CA643422FA53D300DAEE6C /* NavigateLocationVC.swift in Sources */,
+				023F957B22F9B0B6003F068F /* DataServices.swift in Sources */,
+				02CA643D22FA77AE00DAEE6C /* NavigateMapPresenter.swift in Sources */,
+				02CA643922FA6EA600DAEE6C /* LocationProtocol.swift in Sources */,
+				02F35FCF22FA342E000AB578 /* AuthenticationVC+UserDelegate.swift in Sources */,
+				02F35FD122FA40B5000AB578 /* LocationVC.swift in Sources */,
+				02CA643F22FA83D100DAEE6C /* NavigateMapProtocol.swift in Sources */,
+				02BF860422F9DFF900FE1B9E /* User.swift in Sources */,
+				02E6A03F22F907030020F835 /* DesinableFile.swift in Sources */,
+				02FCA5FE22FB115100B7C36B /* AuthenticationProtocol.swift in Sources */,
+				02F35FCD22FA2B5D000AB578 /* UserViewDelegate.swift in Sources */,
+				023F957D22F9C325003F068F /* UserInteractor.swift in Sources */,
+				02375FD922FB301A0002D4F2 /* HomeTableViewProtocol.swift in Sources */,
+				02CA643B22FA71EE00DAEE6C /* LocationVC+Delegate.swift in Sources */,
+				02CA643622FA687500DAEE6C /* LocationPresenter.swift in Sources */,
+				02BF860922F9E3A300FE1B9E /* Constants.swift in Sources */,
+				02375FD522FB1E240002D4F2 /* MapViewProtocol.swift in Sources */,
+				02CA644222FA90AB00DAEE6C /* HomeVC.swift in Sources */,
+				02BF860F22F9F9C000FE1B9E /* HomePresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +765,7 @@
 		};
 		02E6A01F22F8F64A0020F835 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD49902BB06896D9AD18B507 /* Pods-LocationApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +780,7 @@
 		};
 		02E6A02022F8F64A0020F835 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7E561F9592063E462228760 /* Pods-LocationApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +795,7 @@
 		};
 		02E6A02222F8F64A0020F835 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79A37027A9D5E1828820C512 /* Pods-LocationAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +812,7 @@
 		};
 		02E6A02322F8F64A0020F835 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9EB04977E23055DD7AC9F6A /* Pods-LocationAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +829,7 @@
 		};
 		02E6A02522F8F64A0020F835 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23755AE0FFA30EFDF2FDD899 /* Pods-LocationAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +845,7 @@
 		};
 		02E6A02622F8F64A0020F835 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D75E572030D65E01CBA18E92 /* Pods-LocationAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

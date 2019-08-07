@@ -7,29 +7,50 @@
 //
 
 import UIKit
+import CoreLocation
 
-class LocationVC: UIViewController {
-
+class LocationVC: UIViewController, CLLocationManagerDelegate  {
+    //MARK:- outlets
+    @IBOutlet weak var homeButton: UIButton!
+    @IBOutlet weak var latitudeLabel: UILabel!
+    @IBOutlet weak var longitudeLabel: UILabel!
+    //MARK:- property
+    var presenter: LocationPresenter!
+    //MARK:- viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        presenter = LocationPresenter(view: self)
+        presenter.getLocationManager().delegate = self
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    //MARK:- location required functionality
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        presenter.locationManager(manager, didUpdateLocations: locations)
+    }
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error){
+        presenter.locationManager(manager, didFailWithError: error)
+    }
+    //MARK:-Actions
+    @IBAction func getCurrentLocation(_ sender: UIButton) {
+        presenter.getCurrentLocation()
+    }
+ 
+    @IBAction func selectLocation(_ sender: UIButton) {
+        let vc = storyboard?.instantiateViewController(withIdentifier: "navigateMap") as! NavigateLocationVC
+        vc.mapViewSelectionDelegate = self
+        present(vc, animated: true, completion: nil)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func goHome(_ sender: UIButton) {
+        let vc = storyboard?.instantiateViewController(withIdentifier: "home") as! HomeVC
+        present(vc, animated: true, completion: nil)
     }
-    */
+}
 
+extension LocationVC: MapViewSelectionDelegate {
+    func setCoordinates(latInDelegate:Double , longtInDelegate:Double, isChecked:Bool) {
+        presenter.isCheck(_check: isChecked)
+        presenter.updateFirebaseLocation(long: longtInDelegate, lat: latInDelegate)
+        displayLocation(long: longtInDelegate, lat: latInDelegate)
+     
+    }
 }
